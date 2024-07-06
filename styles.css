@@ -1,18 +1,18 @@
-.gravitas-one-regular {
-  font-family: "Gravitas One", serif;
-  font-weight: 400;
-  font-style: normal;
-}
+/* Import the Gravitas One font */
+@import url("https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap");
 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
-  background-color: #f4f4f4;
+  background-image: linear-gradient(to bottom right, magenta, yellow);
 }
 
 h1 {
   text-align: center;
+  font-family: "Gravitas One", serif; /* Apply the font to the main heading */
+  letter-spacing: 5px;
+  font-size: 50px;
 }
 
 form {
@@ -77,7 +77,7 @@ button:hover {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-family: "Gravitas One";
+  font-family: "Gravitas One", serif; /* Apply the font to the albums header */
 }
 
 /* Update the albums container style */
