@@ -1,3 +1,9 @@
+.gravitas-one-regular {
+  font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -71,6 +77,7 @@ button:hover {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  font-family: "Gravitas One";
 }
 
 /* Update the albums container style */
